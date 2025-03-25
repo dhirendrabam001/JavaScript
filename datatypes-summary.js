@@ -35,6 +35,29 @@ const myFunction = function() {
     // console.log("hello world"); 
 }
 
+  //TYPES OF MEMORY LOCATION
+  // STACK(primitive), AND HEAP(Non_Primtive)
+
+  let myName = "Dhirendra"
+
+  let anotherName = myName
+  anotherName = "Bam"
+
+  console.log(myName);
+  
+  console.log(anotherName);
 
 
+  let userName = {
+    email:"dhirendrabam12345@gmail.com",
+    age:"21"
+  }
+  let userName2 = userName
+  userName2.email = "dhirendra12@gmail.com"
+  console.log(userName.email);
+  console.log(userName2.email);
+  
+  
+
+  
 
